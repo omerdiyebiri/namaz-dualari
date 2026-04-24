@@ -57,6 +57,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: siteUrl,
   },
+  verification: {
+    google: "_NRDhqWN2lpI9kP7E9p7wgwW_ARh7PJKwXsVgZEMRxE",
+  },
 };
 
 // Ana sayfa JSON-LD
