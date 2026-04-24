@@ -18,13 +18,13 @@ export default function EsmaulHusnaPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Ana Sayfa",
-        "item": "https://namazdualari.com"
+        "item": "https://namazdualari.org"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Esmaül Hüsna",
-        "item": "https://namazdualari.com/esmaul-husna"
+        "item": "https://namazdualari.org/esmaul-husna"
       }
     ]
   };

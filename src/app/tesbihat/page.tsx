@@ -18,13 +18,13 @@ export default function TesbihatPage() {
         "@type": "ListItem",
         "position": 1,
         "name": "Ana Sayfa",
-        "item": "https://namazdualari.com"
+        "item": "https://namazdualari.org"
       },
       {
         "@type": "ListItem",
         "position": 2,
         "name": "Tesbihat",
-        "item": "https://namazdualari.com/tesbihat"
+        "item": "https://namazdualari.org/tesbihat"
       }
     ]
   };

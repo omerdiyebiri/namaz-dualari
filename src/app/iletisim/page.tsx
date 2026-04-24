@@ -21,8 +21,8 @@ export default function IletisimPage() {
           <div className="card" style={{ marginTop: "var(--space-4)" }}>
             <p style={{ fontWeight: 600, color: "var(--color-text-primary)", marginBottom: "var(--space-2)" }}>E-posta</p>
             <p>
-              <a href="mailto:info@namazdualari.com" style={{ color: "var(--color-primary)", textDecoration: "underline" }}>
-                info@namazdualari.com
+              <a href="mailto:info@namazdualari.org" style={{ color: "var(--color-primary)", textDecoration: "underline" }}>
+                info@namazdualari.org
               </a>
             </p>
           </div>

@@ -17,7 +17,7 @@ const amiri = Amiri({
   variable: "--font-amiri",
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://namazdualari.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://namazdualari.org";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

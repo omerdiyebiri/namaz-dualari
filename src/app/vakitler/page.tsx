@@ -13,8 +13,8 @@ const breadcrumbJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   itemListElement: [
-    { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://namazdualari.com" },
-    { "@type": "ListItem", position: 2, name: "Vakitler",  item: "https://namazdualari.com/vakitler" },
+    { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://namazdualari.org" },
+    { "@type": "ListItem", position: 2, name: "Vakitler",  item: "https://namazdualari.org/vakitler" },
   ],
 };
 

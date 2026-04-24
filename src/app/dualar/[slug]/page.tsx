@@ -37,7 +37,7 @@ export default async function DuaDetayPage({ params }: Props) {
     ));
   };
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://namazdualari.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://namazdualari.org";
 
   // BreadcrumbList JSON-LD
   const breadcrumbJsonLd = {

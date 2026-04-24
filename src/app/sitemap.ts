@@ -3,7 +3,7 @@ import namazlar from "@/data/namazlar.json";
 import dualar from "@/data/dualar.json";
 import blog from "@/data/blog.json";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://namazdualari.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://namazdualari.org";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const namazlarUrls = namazlar.map((n) => ({

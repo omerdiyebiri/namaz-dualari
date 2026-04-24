@@ -50,9 +50,9 @@ export default async function NamazDetayPage({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://namazdualari.com" },
-      { "@type": "ListItem", position: 2, name: "Namazlar",  item: "https://namazdualari.com/namazlar" },
-      { "@type": "ListItem", position: 3, name: namaz.ad,    item: `https://namazdualari.com/namazlar/${slug}` },
+      { "@type": "ListItem", position: 1, name: "Ana Sayfa", item: "https://namazdualari.org" },
+      { "@type": "ListItem", position: 2, name: "Namazlar",  item: "https://namazdualari.org/namazlar" },
+      { "@type": "ListItem", position: 3, name: namaz.ad,    item: `https://namazdualari.org/namazlar/${slug}` },
     ],
   };
 
