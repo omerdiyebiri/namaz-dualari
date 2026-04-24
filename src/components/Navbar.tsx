@@ -1,17 +1,36 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export default function Navbar() {
   const pathname = usePathname();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  // Close mobile menu when route changes
+  useEffect(() => {
+    setIsMobileMenuOpen(false);
+  }, [pathname]);
+
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => {
+      document.body.style.overflow = "";
+    };
+  }, [isMobileMenuOpen]);
 
   return (
     <header className="navbar" role="banner" style={{ overflow: "visible" }}>
       <div className="container navbar__inner" style={{ overflow: "visible" }}>
         
         {/* Premium SVG Logo */}
-        <Link href="/" className="navbar__logo" aria-label="Namaz Duaları Ana Sayfa" style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+        <Link href="/" className="navbar__logo" aria-label="Namaz Duaları Ana Sayfa" style={{ display: "flex", alignItems: "center", gap: "10px", zIndex: 101 }}>
           <div className="navbar__logo-icon" aria-hidden="true" style={{ display: "flex", alignItems: "center", justifyContent: "center", width: "36px", height: "36px", borderRadius: "10px", background: "linear-gradient(135deg, rgba(46,169,111,0.2) 0%, rgba(46,169,111,0.05) 100%)", border: "1px solid rgba(46,169,111,0.3)", boxShadow: "0 4px 12px rgba(46,169,111,0.15)" }}>
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" fill="var(--color-primary)" />
@@ -21,7 +40,7 @@ export default function Navbar() {
           <span style={{ fontWeight: 700, letterSpacing: "-0.02em" }}>Namaz Duaları</span>
         </Link>
 
-        {/* Mega Dropdown Navigasyon */}
+        {/* Desktop Mega Dropdown Navigasyon */}
         <nav className="mega-nav" aria-label="Ana Menü">
           
           <Link href="/" className={`nav-link ${pathname === "/" ? "active" : ""}`}>Ana Sayfa</Link>
@@ -92,16 +111,41 @@ export default function Navbar() {
 
         </nav>
 
-        {/* CTA */}
-        <div className="navbar__actions" style={{ marginLeft: "auto" }}>
-          <Link href="/kaza-hesaplayici" className="btn btn--primary">
+        {/* CTA & Hamburger */}
+        <div className="navbar__actions" style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: "10px", zIndex: 101 }}>
+          <Link href="/kaza-hesaplayici" className="btn btn--primary desktop-cta">
             Kaza Hesapla
           </Link>
+          
+          <button 
+            className={`hamburger ${isMobileMenuOpen ? "is-active" : ""}`}
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Menüyü aç/kapat"
+          >
+            <span className="hamburger-box">
+              <span className="hamburger-inner"></span>
+            </span>
+          </button>
         </div>
 
       </div>
 
-      {/* Mega Dropdown CSS */}
+      {/* Mobil Menü Overlay */}
+      <div className={`mobile-menu ${isMobileMenuOpen ? "is-open" : ""}`}>
+        <div className="mobile-menu__inner">
+          <Link href="/" className="mobile-menu__link">Ana Sayfa</Link>
+          <div className="mobile-menu__group-title">İçerikler</div>
+          <Link href="/namazlar" className="mobile-menu__link">🕌 Namazlar</Link>
+          <Link href="/dualar" className="mobile-menu__link">🤲 Dualar ve Sureler</Link>
+          <div className="mobile-menu__group-title">Rehber & Araçlar</div>
+          <Link href="/vakitler" className="mobile-menu__link">⏳ Namaz Vakitleri</Link>
+          <Link href="/esmaul-husna" className="mobile-menu__link">✨ Esmaül Hüsna</Link>
+          <Link href="/tesbihat" className="mobile-menu__link">📿 Namaz Tesbihatı</Link>
+          <Link href="/kaza-hesaplayici" className="mobile-menu__link">📊 Kaza Takip Sistemi</Link>
+        </div>
+      </div>
+
+      {/* CSS */}
       <style dangerouslySetInnerHTML={{__html: `
         .navbar {
           overflow: visible !important;
@@ -191,9 +235,125 @@ export default function Navbar() {
           font-size: 1.2rem;
           flex-shrink: 0;
         }
-        @media (max-width: 768px) {
+
+        /* Hamburger Menu */
+        .hamburger {
+          display: none;
+          background: transparent;
+          border: none;
+          cursor: pointer;
+          padding: 10px;
+          z-index: 101;
+        }
+        .hamburger-box {
+          width: 24px;
+          height: 20px;
+          display: inline-block;
+          position: relative;
+        }
+        .hamburger-inner {
+          display: block;
+          top: 50%;
+          margin-top: -1px;
+        }
+        .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+          width: 24px;
+          height: 2px;
+          background-color: var(--color-text-primary);
+          border-radius: 2px;
+          position: absolute;
+          transition: transform 0.15s ease;
+        }
+        .hamburger-inner::before, .hamburger-inner::after {
+          content: "";
+          display: block;
+        }
+        .hamburger-inner::before {
+          top: -8px;
+        }
+        .hamburger-inner::after {
+          bottom: -8px;
+        }
+
+        .hamburger.is-active .hamburger-inner {
+          transform: rotate(45deg);
+        }
+        .hamburger.is-active .hamburger-inner::before {
+          top: 0;
+          opacity: 0;
+        }
+        .hamburger.is-active .hamburger-inner::after {
+          bottom: 0;
+          transform: rotate(-90deg);
+        }
+
+        /* Mobile Menu Overlay */
+        .mobile-menu {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100vh;
+          background: rgba(9, 14, 19, 0.98);
+          backdrop-filter: blur(20px);
+          -webkit-backdrop-filter: blur(20px);
+          z-index: 100;
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity 0.3s ease, visibility 0.3s ease;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .mobile-menu.is-open {
+          opacity: 1;
+          visibility: visible;
+        }
+        .mobile-menu__inner {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          width: 100%;
+          max-width: 320px;
+          transform: translateY(20px);
+          transition: transform 0.3s ease;
+        }
+        .mobile-menu.is-open .mobile-menu__inner {
+          transform: translateY(0);
+        }
+        .mobile-menu__link {
+          font-size: 1.25rem;
+          font-weight: 600;
+          color: var(--color-text-primary);
+          text-decoration: none;
+          padding: 12px 20px;
+          border-radius: 12px;
+          background: rgba(255, 255, 255, 0.03);
+          transition: background 0.2s ease, color 0.2s ease;
+        }
+        .mobile-menu__link:hover, .mobile-menu__link:active {
+          background: rgba(46, 169, 111, 0.15);
+          color: var(--color-primary);
+        }
+        .mobile-menu__group-title {
+          font-size: 0.8rem;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          color: var(--color-text-secondary);
+          margin-top: 15px;
+          margin-bottom: 5px;
+          padding-left: 20px;
+        }
+
+        @media (max-width: 900px) {
+          .desktop-cta {
+            display: none !important;
+          }
           .mega-nav {
-            display: none; /* Mobilde hamburger menüsü mantığı eklenebilir, şimdilik gizleyelim veya basit tutalım */
+            display: none;
+          }
+          .hamburger {
+            display: block;
           }
         }
       `}} />

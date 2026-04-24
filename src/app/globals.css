@@ -706,6 +706,36 @@
     color: var(--color-primary);
   }
 
+  .vakit-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    padding: var(--space-4) var(--space-5);
+    background: rgba(22, 27, 34, 0.4);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+    flex-wrap: wrap;
+  }
+  
+  .vakit-row__left {
+    display: flex;
+    align-items: center;
+    gap: var(--space-4);
+    flex: 1 1 200px;
+  }
+
+  .vakit-row__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-4);
+    flex: 1 1 150px;
+  }
+
   [data-theme='light'] .hover-word:hover {
     background: rgba(241, 245, 249, 1);
   }

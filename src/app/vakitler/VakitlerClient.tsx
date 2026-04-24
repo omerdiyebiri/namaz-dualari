@@ -207,40 +207,31 @@ export default function VakitlerClient() {
           <ul className="stack stack--sm" role="list">
             {vakitlerDef.map((vakit) => (
               <li key={vakit.ad}>
-                <div style={{
-                  display: "flex",
-                  alignItems: "center",
-                  gap: "var(--space-4)",
-                  padding: "var(--space-4) var(--space-5)",
-                  background: "rgba(22, 27, 34, 0.4)",
-                  backdropFilter: "blur(12px)",
-                  WebkitBackdropFilter: "blur(12px)",
-                  borderRadius: "var(--radius-md)",
-                  border: "1px solid rgba(255, 255, 255, 0.05)",
-                  boxShadow: "0 8px 32px 0 rgba(0, 0, 0, 0.2)",
-                  borderLeft: `4px solid ${vakit.renk}`,
-                }}>
-                  <span style={{ fontSize: "1.5rem", flexShrink: 0 }} aria-hidden="true">{vakit.icon}</span>
-                  <div style={{ flex: 1 }}>
-                    <p style={{ fontWeight: 600, color: "var(--color-text-primary)" }}>{vakit.ad}</p>
-                    <p style={{ fontSize: "0.8rem", color: "var(--color-text-secondary)" }}>{vakit.aciklama}</p>
+                <div className="vakit-row" style={{ borderLeft: `4px solid ${vakit.renk}` }}>
+                  <div className="vakit-row__left">
+                    <span style={{ fontSize: "1.5rem", flexShrink: 0 }} aria-hidden="true">{vakit.icon}</span>
+                    <div>
+                      <p style={{ fontWeight: 600, color: "var(--color-text-primary)" }}>{vakit.ad}</p>
+                      <p style={{ fontSize: "0.8rem", color: "var(--color-text-secondary)", lineHeight: 1.2 }}>{vakit.aciklama}</p>
+                    </div>
                   </div>
-                  <p lang="ar" dir="rtl" style={{
-                    fontFamily: "var(--font-arabic)",
-                    fontSize: "1.1rem",
-                    color: vakit.renk,
-                  }}>
-                    {vakit.arabca}
-                  </p>
-                  <div style={{
-                    minWidth: 80,
-                    textAlign: "right",
-                    fontSize: "1.2rem",
-                    fontWeight: 700,
-                    color: "var(--color-text-primary)",
-                    fontVariantNumeric: "tabular-nums",
-                  }}>
-                    {timings[vakit.key] || "— : —"}
+                  <div className="vakit-row__right">
+                    <p lang="ar" dir="rtl" style={{
+                      fontFamily: "var(--font-arabic)",
+                      fontSize: "1.1rem",
+                      color: vakit.renk,
+                      margin: 0,
+                    }}>
+                      {vakit.arabca}
+                    </p>
+                    <div style={{
+                      fontSize: "1.2rem",
+                      fontWeight: 700,
+                      color: "var(--color-text-primary)",
+                      fontVariantNumeric: "tabular-nums",
+                    }}>
+                      {timings[vakit.key] || "— : —"}
+                    </div>
                   </div>
                 </div>
               </li>
