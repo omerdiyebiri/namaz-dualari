@@ -1,0 +1,44 @@
+# Namaz ve Dua Rehberi
+
+Bu site, kullanıcı odaklı, hızlı ve güvenilir namaz süreleri, duaları ve anlamlarını içerir.
+Müslümanların günlük ibadetlerine yardımcı olmak için tasarlanmış, Türkçe açıklamalı kapsamlı bir rehberdir.
+
+## Teknik Özet
+
+- Mimari: Next.js 15 (App Router)
+- İçerik: JSON tabanlı statik veriler
+- SEO: Schema.org JSON-LD uyumlu (BreadcrumbList, Article, WebSite)
+- Deployment: Coolify + Docker (standalone mode)
+- Performans: LCP < 1s, CLS = 0
+
+## İçerik Haritası
+
+### Ana Sayfalar
+- / — Giriş sayfası, namaz vakitlerine genel bakış
+- /namazlar — Beş vakit namazın listesi (Sabah, Öğle, İkindi, Akşam, Yatsı)
+- /namazlar/[vakit] — Her namaz için adım adım rehber ve dualar
+- /dualar — Tüm namaz duaları dizini
+- /dualar/[dua] — Dua metni (Arapça), transkripsiyon ve Türkçe meal
+- /vakitler — Günlük namaz vakitleri (konum bazlı)
+
+### Namaz Vakitleri
+Sabah (Fajr), Öğle (Dhuhr), İkindi (Asr), Akşam (Maghrib), Yatsı (Isha)
+
+### Temel Dualar
+- Fatiha Suresi
+- Sübhaneke
+- Ettahiyyatü
+- Allahümme Salli / Barik
+- Rabbena duaları
+- Kunut duaları
+
+## Dil & Hedef Kitle
+
+Birincil dil: Türkçe
+İkincil: Arapça (dua metinleri)
+Hedef kitle: Türkçe konuşan Müslümanlar, namaz öğrenenler
+
+## Lisans
+
+İçerik: Kamu malı (İslami dualar)
+Yazılım: MIT

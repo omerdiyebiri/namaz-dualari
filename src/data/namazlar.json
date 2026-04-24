@@ -1,0 +1,218 @@
+[
+  {
+    "slug": "sabah",
+    "ad": "Sabah Namazı",
+    "arabca": "صلاة الفجر",
+    "rekat": 2,
+    "farza": 2,
+    "sunnet": {
+      "once": 2,
+      "sonra": 0
+    },
+    "vakitAdi": "Fajr",
+    "aciklama": "Gün doğumundan önce kılınan iki rekatlık farz namazdır. Sabah namazının sünneti en önemli nafile namazlardan biridir.",
+    "dualar": [
+      "subhaneke",
+      "ettahiyyatu",
+      "allahumme-salli",
+      "allahumme-barik"
+    ],
+    "meta": {
+      "title": "Sabah Namazı Nasıl Kılınır?",
+      "description": "Sabah namazı (Fajr) nasıl kılınır? 2 rekat sünnet, 2 rekat farz. Okunan namaz sureleri, namaz duaları, anlamları ve adım adım rehber.",
+      "keywords": [
+        "sabah namazı",
+        "fajr",
+        "sabah namazı nasıl kılınır",
+        "sabah namazı duaları"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Sabah Namazı kaç rekattır?",
+        "cevap": "Sabah Namazı toplamda 2 rekattır."
+      },
+      {
+        "soru": "Sabah Namazına nasıl niyet edilir?",
+        "cevap": "\"Niyet ettim Allah rızası için bugünkü Sabah Namazını kılmaya\" denilerek niyet edilir."
+      },
+      {
+        "soru": "Erkekler Sabah Namazı için kamet getirir mi?",
+        "cevap": "Evet, farz namazlardan önce erkek cemaat veya tek kişi kamet getirmelidir."
+      }
+    ]
+  },
+  {
+    "slug": "ogle",
+    "ad": "Öğle Namazı",
+    "arabca": "صلاة الظهر",
+    "rekat": 10,
+    "farza": 4,
+    "sunnet": {
+      "once": 4,
+      "sonra": 2
+    },
+    "vakitAdi": "Dhuhr",
+    "aciklama": "Güneşin tepe noktasından geçmesinden sonra kılınan on rekatlık namazdır. Dört rekat sünnet, dört rekat farz ve iki rekat son sünnetten oluşur.",
+    "dualar": [
+      "subhaneke",
+      "ettahiyyatu",
+      "allahumme-salli",
+      "allahumme-barik"
+    ],
+    "meta": {
+      "title": "Öğle Namazı Nasıl Kılınır?",
+      "description": "Öğle namazı (Dhuhr) nasıl kılınır? 4 rekat sünnet, 4 rekat farz, 2 rekat son sünnet. Okunan namaz sureleri, namaz duaları ve adım adım rehber.",
+      "keywords": [
+        "öğle namazı",
+        "dhuhr",
+        "öğle namazı nasıl kılınır",
+        "öğle namazı duaları"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Öğle Namazı kaç rekattır?",
+        "cevap": "Öğle Namazı toplamda 10 rekattır."
+      },
+      {
+        "soru": "Öğle Namazına nasıl niyet edilir?",
+        "cevap": "\"Niyet ettim Allah rızası için bugünkü Öğle Namazını kılmaya\" denilerek niyet edilir."
+      },
+      {
+        "soru": "Erkekler Öğle Namazı için kamet getirir mi?",
+        "cevap": "Evet, farz namazlardan önce erkek cemaat veya tek kişi kamet getirmelidir."
+      }
+    ]
+  },
+  {
+    "slug": "ikindi",
+    "ad": "İkindi Namazı",
+    "arabca": "صلاة العصر",
+    "rekat": 8,
+    "farza": 4,
+    "sunnet": {
+      "once": 4,
+      "sonra": 0
+    },
+    "vakitAdi": "Asr",
+    "aciklama": "Öğleden sonra kılınan sekiz rekatlık namazdır. Dört rekat sünnet ve dört rekat farzdan oluşur.",
+    "dualar": [
+      "subhaneke",
+      "ettahiyyatu",
+      "allahumme-salli",
+      "allahumme-barik"
+    ],
+    "meta": {
+      "title": "İkindi Namazı Nasıl Kılınır?",
+      "description": "İkindi namazı (Asr) nasıl kılınır? 4 rekat sünnet, 4 rekat farz. Okunan namaz sureleri, namaz duaları ve adım adım rehber.",
+      "keywords": [
+        "ikindi namazı",
+        "asr",
+        "ikindi namazı nasıl kılınır",
+        "ikindi namazı duaları"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "İkindi Namazı kaç rekattır?",
+        "cevap": "İkindi Namazı toplamda 8 rekattır."
+      },
+      {
+        "soru": "İkindi Namazına nasıl niyet edilir?",
+        "cevap": "\"Niyet ettim Allah rızası için bugünkü İkindi Namazını kılmaya\" denilerek niyet edilir."
+      },
+      {
+        "soru": "Erkekler İkindi Namazı için kamet getirir mi?",
+        "cevap": "Evet, farz namazlardan önce erkek cemaat veya tek kişi kamet getirmelidir."
+      }
+    ]
+  },
+  {
+    "slug": "aksam",
+    "ad": "Akşam Namazı",
+    "arabca": "صلاة المغرب",
+    "rekat": 5,
+    "farza": 3,
+    "sunnet": {
+      "once": 0,
+      "sonra": 2
+    },
+    "vakitAdi": "Maghrib",
+    "aciklama": "Güneşin batmasından sonra kılınan beş rekatlık namazdır. Üç rekat farz ve iki rekat son sünnetten oluşur.",
+    "dualar": [
+      "subhaneke",
+      "ettahiyyatu",
+      "allahumme-salli",
+      "allahumme-barik"
+    ],
+    "meta": {
+      "title": "Akşam Namazı Nasıl Kılınır?",
+      "description": "Akşam namazı (Maghrib) nasıl kılınır? 3 rekat farz, 2 rekat son sünnet. Okunan namaz sureleri, namaz duaları ve adım adım rehber.",
+      "keywords": [
+        "akşam namazı",
+        "maghrib",
+        "akşam namazı nasıl kılınır",
+        "akşam namazı duaları"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Akşam Namazı kaç rekattır?",
+        "cevap": "Akşam Namazı toplamda 5 rekattır."
+      },
+      {
+        "soru": "Akşam Namazına nasıl niyet edilir?",
+        "cevap": "\"Niyet ettim Allah rızası için bugünkü Akşam Namazını kılmaya\" denilerek niyet edilir."
+      },
+      {
+        "soru": "Erkekler Akşam Namazı için kamet getirir mi?",
+        "cevap": "Evet, farz namazlardan önce erkek cemaat veya tek kişi kamet getirmelidir."
+      }
+    ]
+  },
+  {
+    "slug": "yatsi",
+    "ad": "Yatsı Namazı",
+    "arabca": "صلاة العشاء",
+    "rekat": 13,
+    "farza": 4,
+    "sunnet": {
+      "once": 4,
+      "sonra": 2
+    },
+    "vitir": 3,
+    "vakitAdi": "Isha",
+    "aciklama": "Yatsı vakti kılınan namazdır. Dört rekat sünnet, dört rekat farz, iki rekat son sünnet ve üç rekat vitir namazından oluşur.",
+    "dualar": [
+      "subhaneke",
+      "ettahiyyatu",
+      "allahumme-salli",
+      "allahumme-barik"
+    ],
+    "meta": {
+      "title": "Yatsı Namazı Nasıl Kılınır?",
+      "description": "Yatsı namazı (Isha) nasıl kılınır? 4 sünnet, 4 farz, 2 sünnet, 3 vitir. Okunan namaz sureleri, namaz duaları ve adım adım rehber.",
+      "keywords": [
+        "yatsı namazı",
+        "isha",
+        "yatsı namazı nasıl kılınır",
+        "vitir namazı"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Yatsı Namazı kaç rekattır?",
+        "cevap": "Yatsı Namazı toplamda 13 rekattır."
+      },
+      {
+        "soru": "Yatsı Namazına nasıl niyet edilir?",
+        "cevap": "\"Niyet ettim Allah rızası için bugünkü Yatsı Namazını kılmaya\" denilerek niyet edilir."
+      },
+      {
+        "soru": "Erkekler Yatsı Namazı için kamet getirir mi?",
+        "cevap": "Evet, farz namazlardan önce erkek cemaat veya tek kişi kamet getirmelidir."
+      }
+    ]
+  }
+]

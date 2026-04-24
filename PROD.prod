@@ -1,0 +1,61 @@
+## Coolify & Standalone Deployment Notları — NamazDuaları
+
+### Next.js Konfigürasyonu
+
+- `output: 'standalone'` aktif → `.next/standalone/` klasörü oluşturulur.
+- Build komutu: `npm run build`
+- Çalıştırma: `node .next/standalone/server.js`
+- PORT env değişkeni: `PORT=3000` (Coolify otomatik atar)
+- HOSTNAME: `0.0.0.0` (container içi erişim için)
+
+### Docker Mimarisi
+
+- **Builder stage**: `node:22-alpine` — bağımlılık kurulumu + build
+- **Runner stage**: `node:22-alpine` — sadece standalone output
+- Toplam image boyutu hedefi: < 150MB
+- Kullanıcı: `nextjs` (non-root)
+
+### Environment Değişkenleri
+
+```
+# Zorunlu
+NODE_ENV=production
+PORT=3000
+HOSTNAME=0.0.0.0
+
+# Namaz vakitleri API
+NEXT_PUBLIC_ALADHAN_API=https://api.aladhan.com/v1
+ALADHAN_CACHE_TTL=900        # 15 dakika (saniye)
+
+# Opsiyonel
+NEXT_PUBLIC_SITE_URL=https://namazdualari.com
+```
+
+### Coolify Yapılandırması
+
+- Build Pack: **Docker** (Dockerfile kullan)
+- Port: 3000
+- Health Check: `GET /api/health` → 200 OK
+- Restart Policy: `unless-stopped`
+- Memory limit: 512MB (Next.js standalone için yeterli)
+
+### Cache Stratejisi
+
+- Namaz vakitleri API: 15 dakika sunucu tarafı önbellek (`s-maxage=900`)
+- Statik sayfalar: ISR yok, tam statik (revalidate: false)
+- `/api/vakitler`: Route Handler ile fetch + unstable_cache
+
+### Volumes (Coolify)
+
+- Uygulama stateless — volume gerekmez.
+- Log: stdout/stderr → Coolify otomatik toplar.
+
+### CI/CD Kontrol Listesi
+
+- [ ] `npm run build` hatasız
+- [ ] `docker build -t namaz-dualari .` başarılı
+- [ ] Image boyutu < 150MB
+- [ ] `docker run -p 3000:3000 namaz-dualari` → http://localhost:3000 erişilebilir
+- [ ] Lighthouse LCP < 1s, CLS = 0
+- [ ] `/llms.txt` erişilebilir
+- [ ] JSON-LD validator temiz

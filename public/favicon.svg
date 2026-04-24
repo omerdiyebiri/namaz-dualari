@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#2ea96f"/>
+      <stop offset="100%" stop-color="#d4a94a"/>
+    </linearGradient>
+  </defs>
+  <!-- Arka plan -->
+  <rect width="64" height="64" rx="14" fill="#0d1117"/>
+  <!-- Hilal -->
+  <path
+    d="M38 14a18 18 0 1 0 0 36 14 14 0 1 1 0-36z"
+    fill="url(#g1)"
+  />
+  <!-- Yıldız -->
+  <polygon
+    points="44,16 45.5,20.5 50,20.5 46.5,23.5 47.8,28 44,25.2 40.2,28 41.5,23.5 38,20.5 42.5,20.5"
+    fill="url(#g1)"
+  />
+</svg>

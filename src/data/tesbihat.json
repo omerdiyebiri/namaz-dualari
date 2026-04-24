@@ -1,0 +1,66 @@
+[
+  {
+    "step": 1,
+    "title": "Selam Sonrası İstiğfar",
+    "arabic": "اَسْتَغْفِرُ اللهَ، اَسْتَغْفِرُ اللهَ، اَسْتَغْفِرُ اللهَ",
+    "reading": "Estağfirullah, Estağfirullah, Estağfirullah.",
+    "meaning": "Allah'tan bağışlanma diliyorum.",
+    "instruction": "Namaz bitip selam verildikten hemen sonra 3 defa söylenir."
+  },
+  {
+    "step": 2,
+    "title": "Allahümme Ente's-Selam",
+    "arabic": "اَللّٰهُمَّ اَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْاِكْرَامِ",
+    "reading": "Allahümme ente's-selâmü ve minke's-selâm, tebârekte yâ ze'l-celâli ve'l-ikrâm.",
+    "meaning": "Allah'ım! Sen selamsın (her türlü eksiklikten uzaksın), selamet Sendendir. Ey Celal ve İkram sahibi, Sen ne yücesin.",
+    "instruction": "İstiğfardan hemen sonra 1 defa okunur."
+  },
+  {
+    "step": 3,
+    "title": "Salâten Tüncinâ veya Salavat",
+    "arabic": "اَللّٰهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ",
+    "reading": "Allahümme salli alâ seyyidinâ Muhammedin ve alâ âli seyyidinâ Muhammed.",
+    "meaning": "Allah'ım! Efendimiz Muhammed'e ve O'nun ailesine salat ve selam eyle.",
+    "instruction": "Tesbihata başlamadan önce Peygamber Efendimize (s.a.v) salavat getirilir."
+  },
+  {
+    "step": 4,
+    "title": "Ayet-el Kürsi",
+    "arabic": "اَللّٰهُ لَا اِلٰهَ اِلَّا هُوَ اَلْحَيُّ الْقَيُّومُ...",
+    "reading": "Allâhü lâ ilâhe illâ hüve'l-hayyü'l-kayyûm, lâ te'huzühû sinetün velâ nevm...",
+    "meaning": "Allah, kendisinden başka hiçbir ilah bulunmayandır. Diridir, kayyumdur...",
+    "instruction": "Sübhanallah demeden hemen önce sessizce ve huşu ile sonuna kadar okunur."
+  },
+  {
+    "step": 5,
+    "title": "33 Defa Sübhanallah",
+    "arabic": "سُبْحَانَ اللهِ",
+    "reading": "Sübhânallah (33 Defa)",
+    "meaning": "Allah her türlü eksiklikten münezzehtir.",
+    "instruction": "Tesbihin ilk adımıdır, her boncukta idrak edilerek çekilir."
+  },
+  {
+    "step": 6,
+    "title": "33 Defa Elhamdülillah",
+    "arabic": "اَلْحَمْدُ لِلّٰهِ",
+    "reading": "Elhamdülillâh (33 Defa)",
+    "meaning": "Her türlü övgü ve şükür Allah'a mahsustur.",
+    "instruction": "Tesbihin ikinci adımıdır."
+  },
+  {
+    "step": 7,
+    "title": "33 Defa Allahu Ekber",
+    "arabic": "اَللّٰهُ اَكْبَرُ",
+    "reading": "Allâhu Ekber (33 Defa)",
+    "meaning": "Allah en büyüktür.",
+    "instruction": "Tesbihin son halkasıdır."
+  },
+  {
+    "step": 8,
+    "title": "Tesbihatın Kapanış Duası",
+    "arabic": "لَا اِلٰهَ اِلَّا اللهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+    "reading": "Lâ ilâhe illallâhu vahdehû lâ şerîke leh, lehü'l-mülkü ve lehü'l-hamdü ve hüve alâ külli şey'in kadîr.",
+    "meaning": "Allah'tan başka hiçbir ilah yoktur, O tektir, ortağı yoktur. Mülk O'nundur, hamd O'nadır. O'nun her şeye gücü yeter.",
+    "instruction": "33 Allahu Ekber bittikten sonra eller duaya kaldırılmadan hemen önce 1 defa okunur ve ardından namaz duası yapılır."
+  }
+]

@@ -1,0 +1,45 @@
+## 2026 SEO Teknikleri — NamazDuaları
+
+### Semantic Density
+
+- Dua başlıkları hem Arapça transkripsiyonu hem de popüler Türkçe isimleriyle yapılandırılmalı.
+  - Örnek: "Sübhaneke Duası" + "Subhaneke" + "namazda okunan başlangıç duası"
+- Her sayfada tek bir `<h1>`, hiyerarşik `<h2>`/`<h3>`.
+- `<article>` semantik elementi dua içeriklerini sarar.
+- `<time datetime="...">` ile vakit bilgileri işaretlenir.
+- `<nav aria-label="Ekmek kırıntısı">` ile breadcrumb navigasyonu.
+
+### Schema Katmanları (JSON-LD)
+
+- **BreadcrumbList** → Tüm sayfalarda (`/` → `/namazlar` → `/namazlar/sabah`)
+- **Article** → Dua detay sayfalarında (author: site, language: tr, inLanguage: ar)
+- **WebSite** + **Organization** → Ana sayfada (siteLinks searchbox dahil)
+- **AudioObject** → Sesli okunuş eklendiğinde (contentUrl, encodingFormat: audio/mp3)
+
+### AI Discovery
+
+- `/llms.txt` → Projenin tüm içeriğini yapısal özetle LLM'lere sunar.
+- `<meta name="robots" content="index, follow">` her sayfada.
+- `sitemap.xml` → Next.js App Router ile otomatik generate edilir (`src/app/sitemap.ts`).
+- `robots.txt` → tüm botlara açık, `/api/` hariç.
+
+### Modern Assets
+
+- Favicon: `.svg` (kök `/public/favicon.svg`) — tarayıcı büyüklüğe göre ölçekler.
+- Görseller: `.avif` formatında, `next/image` ile optimize.
+- Fontlar: `next/font/google` (Amiri — Arapça, Noto Sans — Latin) yerel barındırma.
+- İkonlar: SVG inline (HTTP isteği yok, CLS riski yok).
+
+### Performans Kuralları
+
+- `priority` → Sadece LCP elemanına (hero başlık veya ilk görsel).
+- `loading="lazy"` → Fold altı tüm görseller.
+- CSS: Vanilla, `@layer` mimarisi, kritik CSS inline.
+- Font display: `swap` — FOIT engellenir.
+- Hiç harici CSS kütüphanesi yok (zero weight).
+
+### İçerik Kalitesi
+
+- Her duanın Türkçe meali ve açıklaması olmalı.
+- "Namaz nasıl kılınır" akışı adım adım, numaralı liste ile.
+- Arapça metinler `<span lang="ar" dir="rtl">` içinde.

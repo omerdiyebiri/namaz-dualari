@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "type": "Ayeti",
+    "content": "Bilesiniz ki kalpler ancak Allah'ı anmakla huzur bulur.",
+    "source": "Rad Suresi, 28",
+    "icon": "✨"
+  },
+  {
+    "id": 2,
+    "type": "Ayeti",
+    "content": "Rabbinin ismini sabah akşam zikret.",
+    "source": "İnsan Suresi, 25",
+    "icon": "🌅"
+  },
+  {
+    "id": 3,
+    "type": "Hadisi",
+    "content": "Sizin en hayırlınız, Kur'an'ı öğrenen ve öğretendir.",
+    "source": "Buhari, Fezailü'l-Kur'an 21",
+    "icon": "📖"
+  },
+  {
+    "id": 4,
+    "type": "Hadisi",
+    "content": "Dua, ibadetin özüdür.",
+    "source": "Tirmizi, Daavat 1",
+    "icon": "🤲"
+  },
+  {
+    "id": 5,
+    "type": "Ayeti",
+    "content": "Bana dua edin, size icabet edeyim.",
+    "source": "Mümin Suresi, 60",
+    "icon": "🕊️"
+  },
+  {
+    "id": 6,
+    "type": "Hadisi",
+    "content": "Namaz dinin direğidir.",
+    "source": "Tirmizi, İman 8",
+    "icon": "🕌"
+  },
+  {
+    "id": 7,
+    "type": "Ayeti",
+    "content": "Şüphesiz namaz, müminler üzerine vakitleri belli bir farzdır.",
+    "source": "Nisa Suresi, 103",
+    "icon": "⭐"
+  }
+]

@@ -1,0 +1,617 @@
+[
+  {
+    "slug": "subhaneke",
+    "ad": "Sübhaneke Duası",
+    "diger_adlar": [
+      "Sübhaneke",
+      "Namaza başlangıç duası"
+    ],
+    "arabca": "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَى جَدُّكَ وَلَا إِلَهَ غَيْرُكَ",
+    "transkripsiyon": "Sübhânekellâhümme ve bihamdike ve tebârekesmüke ve teâlâ ceddüke ve lâ ilâhe ğayrük.",
+    "meal": "Allah'ım! Sen'i tüm noksanlıklardan tenzih ederim ve Sen'e hamdederim. Senin adın mübarektir, şanın yücedir. Senden başka ilah yoktur.",
+    "okunma_zamani": "Namazlara başlarken tekbirden sonra okunur.",
+    "kategori": "dua",
+    "meta": {
+      "title": "Sübhaneke Duası Okunuşu ve Anlamı",
+      "description": "Sübhaneke duasının Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "sübhaneke",
+        "subhaneke duası",
+        "namaz duaları"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Sübhaneke Duası ne zaman okunur?",
+        "cevap": "Namazlara başlarken tekbirden sonra okunur."
+      },
+      {
+        "soru": "Sübhaneke Duası Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Bu dua Kur\"an-ı Kerim\"de geçmez, Peygamber efendimizin sünneti ile kılınış adaplarına eklenmiş zikir ve dualardandır."
+      },
+      {
+        "soru": "Namazda Sübhaneke Duası okumanın hükmü nedir?",
+        "cevap": "Namaz duaları genellikle sünnet hükmündedir ve namazın sevabını artırıp eksiklikleri tamamlar."
+      }
+    ]
+  },
+  {
+    "slug": "ettahiyyatu",
+    "ad": "Ettehiyyatü Duası",
+    "diger_adlar": [
+      "Tahiyyat",
+      "Teşehhüd"
+    ],
+    "arabca": "التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ السَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ",
+    "transkripsiyon": "Ettahiyyâtü lillâhi vesselevâtü vettayyibât. Esselâmü aleyke eyyühennebiyyü ve rahmetullâhi ve berekâtüh. Esselâmü aleynâ ve alâ ibâdillâhissâlihîn. Eşhedü en lâ ilâhe illallâh ve eşhedü enne Muhammeden abdühû ve resûlüh.",
+    "meal": "Bütün dualar, senalar, ibadetler Allah'a aittir. Ey Peygamber! Allah'ın selamı, rahmeti ve bereketi senin üzerine olsun. Selam bizim üzerimize ve Allah'ın bütün iyi kullarının üzerine olsun. Şahitlik ederim ki Allah'tan başka ilah yoktur. Yine şahitlik ederim ki Muhammed O'nun kulu ve elçisidir.",
+    "okunma_zamani": "Namazlarda oturuşlarda (Kade) okunur.",
+    "kategori": "dua",
+    "meta": {
+      "title": "Ettehiyyatü Duası Okunuşu ve Anlamı",
+      "description": "Ettehiyyatü duasının Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "ettehiyyatü",
+        "tahiyyat duası",
+        "namaz duaları"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Ettehiyyatü Duası ne zaman okunur?",
+        "cevap": "Namazlarda oturuşlarda (Kade) okunur."
+      },
+      {
+        "soru": "Ettehiyyatü Duası Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Bu dua Kur\"an-ı Kerim\"de geçmez, Peygamber efendimizin sünneti ile kılınış adaplarına eklenmiş zikir ve dualardandır."
+      },
+      {
+        "soru": "Namazda Ettehiyyatü Duası okumanın hükmü nedir?",
+        "cevap": "Namaz duaları genellikle sünnet hükmündedir ve namazın sevabını artırıp eksiklikleri tamamlar."
+      }
+    ]
+  },
+  {
+    "slug": "allahumme-barik",
+    "ad": "Allahümme Barik",
+    "diger_adlar": [
+      "Barik Duası"
+    ],
+    "arabca": "اللَّهُمَّ بَارِكْ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+    "transkripsiyon": "Allâhümme bârik alâ Muhammedin ve alâ âli Muhammed. Kemâ bârekte alâ İbrâhîme ve alâ âli İbrâhîm. İnneke hamîdün mecîd.",
+    "meal": "Allah'ım! Muhammed'e ve Muhammed'in ümmetine hayır ve bereket ver. Tıpkı İbrahim'e ve İbrahim'in ümmetine bereket verdiğin gibi. Şüphesiz övülmeye layık olan, şanı yüce olan Sensin.",
+    "okunma_zamani": "Namazların son oturuşlarında Salli duasından sonra okunur.",
+    "kategori": "dua",
+    "meta": {
+      "title": "Allahümme Barik Duası Okunuşu ve Anlamı",
+      "description": "Allahümme Barik duasının Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "barik duası",
+        "allahümme barik",
+        "namaz duaları"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Allahümme Barik ne zaman okunur?",
+        "cevap": "Namazların son oturuşlarında Salli duasından sonra okunur."
+      },
+      {
+        "soru": "Allahümme Barik Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Bu dua Kur\"an-ı Kerim\"de geçmez, Peygamber efendimizin sünneti ile kılınış adaplarına eklenmiş zikir ve dualardandır."
+      },
+      {
+        "soru": "Namazda Allahümme Barik okumanın hükmü nedir?",
+        "cevap": "Namaz duaları genellikle sünnet hükmündedir ve namazın sevabını artırıp eksiklikleri tamamlar."
+      }
+    ]
+  },
+  {
+    "slug": "allahumme-salli",
+    "ad": "Allahümme Salli",
+    "diger_adlar": [
+      "Salli Duası",
+      "Salavat"
+    ],
+    "arabca": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+    "transkripsiyon": "Allâhümme salli alâ Muhammedin ve alâ âli Muhammed. Kemâ salleyte alâ İbrâhîme ve alâ âli İbrâhîm. İnneke hamîdün mecîd.",
+    "meal": "Allah'ım! Muhammed'e ve Muhammed'in ümmetine rahmet eyle; şerefini yücelt. Tıpkı İbrahim'e ve İbrahim'in ümmetine rahmet ettiğin gibi. Şüphesiz övülmeye layık olan, şanı yüce olan Sensin.",
+    "okunma_zamani": "Namazların son oturuşlarında okunur.",
+    "kategori": "dua",
+    "meta": {
+      "title": "Allahümme Salli Duası Okunuşu ve Anlamı",
+      "description": "Allahümme Salli duasının Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "salli duası",
+        "allahümme salli",
+        "namaz duaları"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Allahümme Salli ne zaman okunur?",
+        "cevap": "Namazların son oturuşlarında okunur."
+      },
+      {
+        "soru": "Allahümme Salli Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Bu dua Kur\"an-ı Kerim\"de geçmez, Peygamber efendimizin sünneti ile kılınış adaplarına eklenmiş zikir ve dualardandır."
+      },
+      {
+        "soru": "Namazda Allahümme Salli okumanın hükmü nedir?",
+        "cevap": "Namaz duaları genellikle sünnet hükmündedir ve namazın sevabını artırıp eksiklikleri tamamlar."
+      }
+    ]
+  },
+  {
+    "slug": "rabbena-dualari",
+    "ad": "Rabbena Duaları",
+    "diger_adlar": [
+      "Rabbena Atina",
+      "Rabbenağfirli"
+    ],
+    "arabca": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ۝ رَبَّنَا اغْفِرْ لِي وَلِوَالِدَيَّ وَلِلْمُؤْمِنِينَ يَوْمَ يَقُومُ الْحِسَابُ",
+    "transkripsiyon": "Rabbenâ âtinâ fid'dünyâ haseneten ve fil'âhirati haseneten ve kınâ azâbennâr. Rabbenâğfirlî ve li-vâlideyye ve lil-mü'minîne yevme yekūmü'l hisâb.",
+    "meal": "Rabbimiz! Bize dünyada iyilik ve yaşama zevki ver, ahirette de iyilik ver. Bizi cehennem azabından koru. Ey Rabbimiz! Hesabın görüleceği gün beni, anamı-babamı ve inananları bağışla.",
+    "okunma_zamani": "Namazların son oturuşlarında selam vermeden önce okunur.",
+    "kategori": "dua",
+    "meta": {
+      "title": "Rabbena Duaları Okunuşu ve Anlamı",
+      "description": "Rabbena Atina ve Rabbenağfirli dualarının Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "rabbena duaları",
+        "rabbena atina",
+        "namaz duaları"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Rabbena Duaları ne zaman okunur?",
+        "cevap": "Namazların son oturuşlarında selam vermeden önce okunur."
+      },
+      {
+        "soru": "Rabbena Duaları Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Bu dua Kur\"an-ı Kerim\"de geçmez, Peygamber efendimizin sünneti ile kılınış adaplarına eklenmiş zikir ve dualardandır."
+      },
+      {
+        "soru": "Namazda Rabbena Duaları okumanın hükmü nedir?",
+        "cevap": "Namaz duaları genellikle sünnet hükmündedir ve namazın sevabını artırıp eksiklikleri tamamlar."
+      }
+    ]
+  },
+  {
+    "slug": "kunut-dualari",
+    "ad": "Kunut Duaları",
+    "diger_adlar": [
+      "Kunut",
+      "Vitir namazı duaları"
+    ],
+    "arabca": "اللَّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنُؤْمِنُ بِكَ وَنَتَوَكَّلُ عَلَيْكَ وَنُثْنِي عَلَيْكَ الْخَيْرَ وَنَشْكُرُكَ وَلَا نَكْفُرُكَ وَنَخْلَعُ وَنَتْرُكُ مَنْ يَفْجُرُكَ ۝ اللَّهُمَّ إِيَّاكَ نَعْبُدُ وَلَكَ نُصَلِّي وَنَسْجُدُ وَإِلَيْكَ نَسْعَى وَنَحْفِدُ نَرْجُو رَحْمَتَكَ وَنَخْشَى عَذَابَكَ إِنَّ عَذَابَكَ الْجِدَّ بِالْكُفَّارِ مُلْحِقٌ",
+    "transkripsiyon": "Allâhümme innâ neste'înüke ve nestağfiruke ve nü'minü bike ve netevekkelü aleyke ve nüsnî aleykel hayre ve neşküruke ve lâ nekfüruke ve nahleu ve netruku men yefcüruk. Allâhümme iyyâke na'budü ve leke nusallî ve nescüdü ve ileyke nes'â ve nahfidü nercû rahmeteke ve nahşâ azâbeke inne azâbekel cidde bilküffâri mülhık.",
+    "meal": "Allah'ım! Senden yardım dileriz, mağfiret dileriz... Allah'ım! Biz yalnız Sana kulluk eder, Senin için namaz kılar ve Sana secde ederiz...",
+    "okunma_zamani": "Vitir namazının son rekatında tekbir aldıktan sonra okunur.",
+    "kategori": "dua",
+    "meta": {
+      "title": "Kunut Duaları Okunuşu ve Anlamı",
+      "description": "Vitir namazında okunan Kunut dualarının Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "kunut",
+        "kunut duaları",
+        "vitir namazı",
+        "namaz duaları"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Kunut Duaları ne zaman okunur?",
+        "cevap": "Vitir namazının son rekatında tekbir aldıktan sonra okunur."
+      },
+      {
+        "soru": "Kunut Duaları Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Bu dua Kur\"an-ı Kerim\"de geçmez, Peygamber efendimizin sünneti ile kılınış adaplarına eklenmiş zikir ve dualardandır."
+      },
+      {
+        "soru": "Namazda Kunut Duaları okumanın hükmü nedir?",
+        "cevap": "Namaz duaları genellikle sünnet hükmündedir ve namazın sevabını artırıp eksiklikleri tamamlar."
+      }
+    ]
+  },
+  {
+    "slug": "fatiha-suresi",
+    "ad": "Fatiha Suresi",
+    "diger_adlar": [
+      "Elham",
+      "El-Fatiha"
+    ],
+    "arabca": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ ۝ الرَّحْمَنِ الرَّحِيمِ ۝ مَالِكِ يَوْمِ الدِّينِ ۝ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ ۝ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ ۝ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+    "transkripsiyon": "Bismillâhirrahmânirrahîm. Elhamdü lillâhi rabbil'âlemîn. Errahmânirrahîm. Mâliki yevmiddîn. İyyâke na'budü ve iyyâke neste'în. İhdinessırâtel müstakîm. Sırâtellezîne en'amte aleyhim ğayril mağdûbi aleyhim ve leddâllîn.",
+    "meal": "Rahman ve Rahim olan Allah'ın adıyla. Hamd, âlemlerin Rabbi Allah'a mahsustur. O, Rahman ve Rahim'dir. Hesap gününün sahibidir. Yalnız sana ibadet ederiz ve yalnız senden yardım dileriz. Bizi doğru yola, kendilerine nimet verdiklerinin yoluna ilet; gazaba uğrayanların ve sapkınların yoluna değil.",
+    "okunma_zamani": "Namazın her rekatında okunur.",
+    "kategori": "sure",
+    "meta": {
+      "title": "Fatiha Suresi Okunuşu ve Anlamı",
+      "description": "Fatiha suresinin Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "fatiha",
+        "fatiha suresi",
+        "namaz sureleri"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Fatiha Suresi ne zaman okunur?",
+        "cevap": "Namazın her rekatında okunur."
+      },
+      {
+        "soru": "Fatiha Suresi Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Evet, bu sure Kur\"an-ı Kerim\"de yer almaktadır."
+      },
+      {
+        "soru": "Namazda Fatiha Suresi okumanın hükmü nedir?",
+        "cevap": "Farz namazlarda Fatiha\"dan sonra zamm-ı sure okumak vaciptir. Fatiha Suresi de zamm-ı sure olarak okunabilir."
+      }
+    ]
+  },
+  {
+    "slug": "fil-suresi",
+    "ad": "Fil Suresi",
+    "diger_adlar": [
+      "Elem tera",
+      "Fil"
+    ],
+    "arabca": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ ۝ أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ ۝ وَأَرْسَلَ عَلَيْهِمْ طَيْرًا أَبَابِيلَ ۝ تَرْمِيهِمْ بِحِجَارَةٍ مِنْ سِجِّيلٍ ۝ فَجَعَلَهُمْ كَعَصْفٍ مَأْكُولٍ",
+    "transkripsiyon": "Bismillâhirrahmânirrahîm. Elem tera keyfe fe'ale rabbüke bi-ashâbil fîl. Elem yec'al keydehüm fî tadlîl. Ve ersele aleyhim tayran ebâbîl. Termîhim bihicâratin min siccîl. Fece'alehüm ke'asfin me'kûl.",
+    "meal": "Rahman ve Rahim olan Allah'ın adıyla. Rabbinin fil sahiplerine ne yaptığını görmedin mi? Onların tuzaklarını boşa çıkarmadı mı? Üzerlerine sürü sürü kuşlar gönderdi. Onlara pişkin tuğladan yapılmış taşlar atıyorlardı. Sonunda onları yenilmiş ekin yaprağına çevirdi.",
+    "okunma_zamani": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur.",
+    "kategori": "sure",
+    "meta": {
+      "title": "Fil Suresi Okunuşu ve Anlamı",
+      "description": "Fil suresinin (Elem tera) Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "fil suresi",
+        "elem tera",
+        "namaz sureleri"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Fil Suresi ne zaman okunur?",
+        "cevap": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur."
+      },
+      {
+        "soru": "Fil Suresi Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Evet, bu sure Kur\"an-ı Kerim\"de yer almaktadır."
+      },
+      {
+        "soru": "Namazda Fil Suresi okumanın hükmü nedir?",
+        "cevap": "Farz namazlarda Fatiha\"dan sonra zamm-ı sure okumak vaciptir. Fil Suresi de zamm-ı sure olarak okunabilir."
+      }
+    ]
+  },
+  {
+    "slug": "kureys-suresi",
+    "ad": "Kureyş Suresi",
+    "diger_adlar": [
+      "Liilafi",
+      "Kureyş"
+    ],
+    "arabca": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ لِإِيلَافِ قُرَيْشٍ ۝ إِيلَافِهِمْ رِحْلَةَ الشِّتَاءِ وَالصَّيْفِ ۝ فَلْيَعْبُدُوا رَبَّ هَذَا الْبَيْتِ ۝ الَّذِي أَطْعَمَهُمْ مِنْ جُوعٍ وَآمَنَهُمْ مِنْ خَوْفٍ",
+    "transkripsiyon": "Bismillâhirrahmânirrahîm. Li'îlâfi kurayş. Îlâfihim rihleteş-şitâi vessayf. Felye'büdû rabbe hâzel beyt. Ellezî et'amehüm min cû'in ve âmenehüm min havf.",
+    "meal": "Rahman ve Rahim olan Allah'ın adıyla. Kureyş'i alıştırıp ısındırdığı için, onları kış ve yaz yolculuğuna alıştırıp ısındırdığı için, onlar bu Ev'in (Kabe'nin) Rabbine kulluk etsinler. O, onları açlıktan doyurdu ve korkudan emniyete kavuşturdu.",
+    "okunma_zamani": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur.",
+    "kategori": "sure",
+    "meta": {
+      "title": "Kureyş Suresi Okunuşu ve Anlamı",
+      "description": "Kureyş suresinin (Liilafi) Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "kureyş suresi",
+        "liilafi",
+        "namaz sureleri"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Kureyş Suresi ne zaman okunur?",
+        "cevap": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur."
+      },
+      {
+        "soru": "Kureyş Suresi Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Evet, bu sure Kur\"an-ı Kerim\"de yer almaktadır."
+      },
+      {
+        "soru": "Namazda Kureyş Suresi okumanın hükmü nedir?",
+        "cevap": "Farz namazlarda Fatiha\"dan sonra zamm-ı sure okumak vaciptir. Kureyş Suresi de zamm-ı sure olarak okunabilir."
+      }
+    ]
+  },
+  {
+    "slug": "maun-suresi",
+    "ad": "Maun Suresi",
+    "diger_adlar": [
+      "Eraeyte",
+      "Maun"
+    ],
+    "arabca": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ أَرَأَيْتَ الَّذِي يُكَذِّبُ بِالدِّينِ ۝ فَذَلِكَ الَّذِي يَدُعُّ الْيَتِيمَ ۝ وَلَا يَحُضُّ عَلَى طَعَامِ الْمِسْكِينِ ۝ فَوَيْلٌ لِلْمُصَلِّينَ ۝ الَّذِينَ هُمْ عَنْ صَلَاتِهِمْ سَاهُونَ ۝ الَّذِينَ هُمْ يُرَاءُونَ ۝ وَيَمْنَعُونَ الْمَاعُونَ",
+    "transkripsiyon": "Bismillâhirrahmânirrahîm. Eraeytellezî yükezzibü biddîn. Fezâlikellezî yedu'ul-yetîm. Ve lâ yehuddu alâ ta'âmil-miskîn. Feveylün lil-musallîn. Ellezîne hüm an salâtihim sâhûn. Ellezîne hüm yürâûn. Ve yemne'ûnel-mâ'ûn.",
+    "meal": "Rahman ve Rahim olan Allah'ın adıyla. Dini yalanlayanı gördün mü? İşte o, yetimi itip kakan, yoksulu doyurmayı teşvik etmeyen kimsedir. Yazıklar olsun o namaz kılanlara ki, onlar namazlarını ciddiye almazlar. Onlar gösteriş yaparlar ve en ufak bir yardıma bile engel olurlar.",
+    "okunma_zamani": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur.",
+    "kategori": "sure",
+    "meta": {
+      "title": "Maun Suresi Okunuşu ve Anlamı",
+      "description": "Maun suresinin Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "maun suresi",
+        "eraeyte",
+        "namaz sureleri"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Maun Suresi ne zaman okunur?",
+        "cevap": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur."
+      },
+      {
+        "soru": "Maun Suresi Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Evet, bu sure Kur\"an-ı Kerim\"de yer almaktadır."
+      },
+      {
+        "soru": "Namazda Maun Suresi okumanın hükmü nedir?",
+        "cevap": "Farz namazlarda Fatiha\"dan sonra zamm-ı sure okumak vaciptir. Maun Suresi de zamm-ı sure olarak okunabilir."
+      }
+    ]
+  },
+  {
+    "slug": "kevser-suresi",
+    "ad": "Kevser Suresi",
+    "diger_adlar": [
+      "İnna a'tayna",
+      "Kevser"
+    ],
+    "arabca": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ ۝ فَصَلِّ لِرَبِّكَ وَانْحَرْ ۝ إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+    "transkripsiyon": "Bismillâhirrahmânirrahîm. İnnâ a'taynâkel-kevser. Fesalli lirabbike venhar. İnne şâni'eke hüvel'ebter.",
+    "meal": "Rahman ve Rahim olan Allah'ın adıyla. Şüphesiz biz sana Kevser'i verdik. O halde Rabbin için namaz kıl ve kurban kes. Asıl sonu kesik olan, sana kin besleyendir.",
+    "okunma_zamani": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur.",
+    "kategori": "sure",
+    "meta": {
+      "title": "Kevser Suresi Okunuşu ve Anlamı",
+      "description": "Kevser suresinin (İnna a'tayna) Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "kevser suresi",
+        "inna a'tayna",
+        "namaz sureleri"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Kevser Suresi ne zaman okunur?",
+        "cevap": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur."
+      },
+      {
+        "soru": "Kevser Suresi Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Evet, bu sure Kur\"an-ı Kerim\"de yer almaktadır."
+      },
+      {
+        "soru": "Namazda Kevser Suresi okumanın hükmü nedir?",
+        "cevap": "Farz namazlarda Fatiha\"dan sonra zamm-ı sure okumak vaciptir. Kevser Suresi de zamm-ı sure olarak okunabilir."
+      }
+    ]
+  },
+  {
+    "slug": "kafirun-suresi",
+    "ad": "Kafirun Suresi",
+    "diger_adlar": [
+      "Kul ya eyyühel kafirun",
+      "Kafirun"
+    ],
+    "arabca": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ قُلْ يَا أَيُّهَا الْكَافِرُونَ ۝ لَا أَعْبُدُ مَا تَعْبُدُونَ ۝ وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ ۝ وَلَا أَنَا عَابِدٌ مَا عَبَدْتُمْ ۝ وَلَا أَنْتُمْ عَابِدُونَ مَا أَعْبُدُ ۝ لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
+    "transkripsiyon": "Bismillâhirrahmânirrahîm. Kul yâ eyyühel-kâfirûn. Lâ a'büdü mâ ta'büdûn. Ve lâ entüm 'âbidûne mâ a'büd. Ve lâ ene 'âbidün mâ 'abedtüm. Ve lâ entüm 'âbidûne mâ a'büd. Leküm dînüküm veliye dîn.",
+    "meal": "Rahman ve Rahim olan Allah'ın adıyla. De ki: Ey kafirler! Ben sizin taptıklarınıza tapmam. Siz de benim taptığıma tapmıyorsunuz. Ben sizin taptıklarınıza asla tapacak değilim. Siz de benim taptığıma tapacak değilsiniz. Sizin dininiz size, benim dinim banadır.",
+    "okunma_zamani": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur.",
+    "kategori": "sure",
+    "meta": {
+      "title": "Kafirun Suresi Okunuşu ve Anlamı",
+      "description": "Kafirun suresinin Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "kafirun suresi",
+        "kul ya eyyühel kafirun",
+        "namaz sureleri"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Kafirun Suresi ne zaman okunur?",
+        "cevap": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur."
+      },
+      {
+        "soru": "Kafirun Suresi Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Evet, bu sure Kur\"an-ı Kerim\"de yer almaktadır."
+      },
+      {
+        "soru": "Namazda Kafirun Suresi okumanın hükmü nedir?",
+        "cevap": "Farz namazlarda Fatiha\"dan sonra zamm-ı sure okumak vaciptir. Kafirun Suresi de zamm-ı sure olarak okunabilir."
+      }
+    ]
+  },
+  {
+    "slug": "nasr-suresi",
+    "ad": "Nasr Suresi",
+    "diger_adlar": [
+      "İza cae",
+      "Nasr"
+    ],
+    "arabca": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ ۝ وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا ۝ فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا",
+    "transkripsiyon": "Bismillâhirrahmânirrahîm. İzâ câe nasrullâhi vel-feth. Ve raeyten-nâse yedhulûne fî dînillâhi efvâcâ. Fesebbih bihamdi rabbike vestağfirh. İnnehû kâne tevvâbâ.",
+    "meal": "Rahman ve Rahim olan Allah'ın adıyla. Allah'ın yardımı ve fetih gelip insanların bölük bölük Allah'ın dinine girdiğini gördüğünde; Rabbini överek tesbih et ve O'ndan bağışlanma dile. Şüphesiz O, tevbeleri çok kabul edendir.",
+    "okunma_zamani": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur.",
+    "kategori": "sure",
+    "meta": {
+      "title": "Nasr Suresi Okunuşu ve Anlamı",
+      "description": "Nasr suresinin (İza cae) Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "nasr suresi",
+        "iza cae",
+        "namaz sureleri"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Nasr Suresi ne zaman okunur?",
+        "cevap": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur."
+      },
+      {
+        "soru": "Nasr Suresi Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Evet, bu sure Kur\"an-ı Kerim\"de yer almaktadır."
+      },
+      {
+        "soru": "Namazda Nasr Suresi okumanın hükmü nedir?",
+        "cevap": "Farz namazlarda Fatiha\"dan sonra zamm-ı sure okumak vaciptir. Nasr Suresi de zamm-ı sure olarak okunabilir."
+      }
+    ]
+  },
+  {
+    "slug": "tebbet-suresi",
+    "ad": "Tebbet Suresi",
+    "diger_adlar": [
+      "Tebbet yeda",
+      "Mesed",
+      "Leheb"
+    ],
+    "arabca": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ ۝ مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ ۝ سَيَصْلَى نَارًا ذَاتَ لَهَبٍ ۝ وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ ۝ فِي جِيدِهَا حَبْلٌ مِنْ مَسَدٍ",
+    "transkripsiyon": "Bismillâhirrahmânirrahîm. Tebbet yedâ Ebî Lehebin ve tebb. Mâ ağnâ 'anhü mâlühû ve mâ keseb. Seyaslâ nâran zâte leheb. Vemraetühû hammâletel-hatab. Fî cîdihâ hablün min mesed.",
+    "meal": "Rahman ve Rahim olan Allah'ın adıyla. Ebu Leheb'in iki eli kurusun! Kurudu da. Malı ve kazandıkları ona fayda vermedi. O, alevli bir ateşe girecektir. Odun taşıyıcısı olarak, boynunda ipten bükülmüş bir halatla karısı da.",
+    "okunma_zamani": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur.",
+    "kategori": "sure",
+    "meta": {
+      "title": "Tebbet Suresi Okunuşu ve Anlamı",
+      "description": "Tebbet suresinin Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "tebbet suresi",
+        "tebbet",
+        "leheb suresi",
+        "namaz sureleri"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Tebbet Suresi ne zaman okunur?",
+        "cevap": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur."
+      },
+      {
+        "soru": "Tebbet Suresi Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Evet, bu sure Kur\"an-ı Kerim\"de yer almaktadır."
+      },
+      {
+        "soru": "Namazda Tebbet Suresi okumanın hükmü nedir?",
+        "cevap": "Farz namazlarda Fatiha\"dan sonra zamm-ı sure okumak vaciptir. Tebbet Suresi de zamm-ı sure olarak okunabilir."
+      }
+    ]
+  },
+  {
+    "slug": "ihlas-suresi",
+    "ad": "İhlas Suresi",
+    "diger_adlar": [
+      "Kul hüvallahü ehad",
+      "İhlas"
+    ],
+    "arabca": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ قُلْ هُوَ اللَّهُ أَحَدٌ ۝ اللَّهُ الصَّمَدُ ۝ لَمْ يَلِدْ وَلَمْ يُولَدْ ۝ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ",
+    "transkripsiyon": "Bismillâhirrahmânirrahîm. Kul hüvellâhü ehad. Allâhüs-samed. Lem yelid ve lem yûled. Ve lem yekün lehû küfüven ehad.",
+    "meal": "Rahman ve Rahim olan Allah'ın adıyla. De ki: O Allah tektir. Allah Samed'dir (her şey O'na muhtaçtır, O hiçbir şeye muhtaç değildir). O doğurmamış ve doğmamıştır. Hiçbir şey O'na denk değildir.",
+    "okunma_zamani": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur.",
+    "kategori": "sure",
+    "meta": {
+      "title": "İhlas Suresi Okunuşu ve Anlamı",
+      "description": "İhlas suresinin (Kul hüvallahü ehad) Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "ihlas suresi",
+        "kul hüvallahü ehad",
+        "ihlas",
+        "namaz sureleri"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "İhlas Suresi ne zaman okunur?",
+        "cevap": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur."
+      },
+      {
+        "soru": "İhlas Suresi Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Evet, bu sure Kur\"an-ı Kerim\"de yer almaktadır."
+      },
+      {
+        "soru": "Namazda İhlas Suresi okumanın hükmü nedir?",
+        "cevap": "Farz namazlarda Fatiha\"dan sonra zamm-ı sure okumak vaciptir. İhlas Suresi de zamm-ı sure olarak okunabilir."
+      }
+    ]
+  },
+  {
+    "slug": "felak-suresi",
+    "ad": "Felak Suresi",
+    "diger_adlar": [
+      "Kul euzü birabbil felak",
+      "Felak"
+    ],
+    "arabca": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ ۝ مِنْ شَرِّ مَا خَلَقَ ۝ وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ ۝ وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ ۝ وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+    "transkripsiyon": "Bismillâhirrahmânirrahîm. Kul e'ûzü birabbil-felak. Min şerri mâ halak. Ve min şerri ğâsikın izâ vekab. Ve min şerrin-neffâsâti fil-'ukad. Ve min şerri hâsidin izâ hased.",
+    "meal": "Rahman ve Rahim olan Allah'ın adıyla. De ki: Yarattığı şeylerin şerrinden, karanlığı çöktüğü zaman gecenin şerrinden, düğümlere üfleyen büyücülerin şerrinden ve haset ettiği zaman hasetçinin şerrinden sabahın Rabbine sığınırım.",
+    "okunma_zamani": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur.",
+    "kategori": "sure",
+    "meta": {
+      "title": "Felak Suresi Okunuşu ve Anlamı",
+      "description": "Felak suresinin Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "felak suresi",
+        "kul euzü birabbil felak",
+        "namaz sureleri"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Felak Suresi ne zaman okunur?",
+        "cevap": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur."
+      },
+      {
+        "soru": "Felak Suresi Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Evet, bu sure Kur\"an-ı Kerim\"de yer almaktadır."
+      },
+      {
+        "soru": "Namazda Felak Suresi okumanın hükmü nedir?",
+        "cevap": "Farz namazlarda Fatiha\"dan sonra zamm-ı sure okumak vaciptir. Felak Suresi de zamm-ı sure olarak okunabilir."
+      }
+    ]
+  },
+  {
+    "slug": "nas-suresi",
+    "ad": "Nas Suresi",
+    "diger_adlar": [
+      "Kul euzü birabbin nas",
+      "Nas"
+    ],
+    "arabca": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ ۝ قُلْ أَعُوذُ بِرَبِّ النَّاسِ ۝ مَلِكِ النَّاسِ ۝ إِلَهِ النَّاسِ ۝ مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ ۝ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ ۝ مِنَ الْجِنَّةِ وَالنَّاسِ",
+    "transkripsiyon": "Bismillâhirrahmânirrahîm. Kul e'ûzü birabbin-nâs. Melikin-nâs. İlâhin-nâs. Min şerril-vesvâsil-hannâs. Ellezî yüvesvisü fî sudûrin-nâs. Minel-cinneti ven-nâs.",
+    "meal": "Rahman ve Rahim olan Allah'ın adıyla. De ki: İnsanların kalplerine vesvese sokan, pusuya çekilen şeytanın şerrinden, gerek cinlerden gerek insanlardan olan bütün vesvesecilerin şerrinden insanların Rabbine, insanların Melikine, insanların İlahına sığınırım.",
+    "okunma_zamani": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur.",
+    "kategori": "sure",
+    "meta": {
+      "title": "Nas Suresi Okunuşu ve Anlamı",
+      "description": "Nas suresinin Arapça metni, Türkçe okunuşu ve anlamı. En faziletli namaz duaları ve namaz sureleri.",
+      "keywords": [
+        "nas suresi",
+        "kul euzü birabbin nas",
+        "namaz sureleri"
+      ]
+    },
+    "faq": [
+      {
+        "soru": "Nas Suresi ne zaman okunur?",
+        "cevap": "Namazda Fatiha'dan sonra zamm-ı sure olarak okunur."
+      },
+      {
+        "soru": "Nas Suresi Kur\"an-ı Kerim\"de geçiyor mu?",
+        "cevap": "Evet, bu sure Kur\"an-ı Kerim\"de yer almaktadır."
+      },
+      {
+        "soru": "Namazda Nas Suresi okumanın hükmü nedir?",
+        "cevap": "Farz namazlarda Fatiha\"dan sonra zamm-ı sure okumak vaciptir. Nas Suresi de zamm-ı sure olarak okunabilir."
+      }
+    ]
+  }
+]
